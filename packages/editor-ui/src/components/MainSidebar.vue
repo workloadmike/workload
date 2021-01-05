@@ -15,10 +15,9 @@
 			<el-menu default-active="workflow" @select="handleSelect" :collapse="isCollapsed">
 
 				<el-menu-item index="logo" class="logo-item">
-					<a href="https://n8n.io" target="_blank" class="logo">
-						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="n8n.io"/>
-						<span class="logo-text" slot="title">n8n.io</span>
-					</a>
+					<a href="https://workload.co" target="_blank" class="logo">
+						<img :src="basePath + 'n8n-icon-small.png'" class="icon" alt="https://workload.co"/>
+											</a>
 				</el-menu-item>
 
 				<el-submenu index="workflow" title="Workflow">
